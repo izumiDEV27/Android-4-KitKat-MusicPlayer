@@ -5,7 +5,17 @@ Este repositorio contiene un parche de compatibilidad para un reproductor de mú
 El objetivo fue rehabilitar la aplicación para que funcione correctamente en hardware moderno y en Android 14 (incluyendo HyperOS), superando restricciones de seguridad y cambios en APIs internas del sistema.
 
 ---
+## Before / After
 
+| Original (Android 4) | Patched (Android 14) |
+|---------------------|----------------------|
+| ![](assetsC/old.png) | ![](assets/new.png)  |
+---
+## screnshoots
+| ![](assetsC/old.png) | ![](assets/new.png)  |
+| ![](assetsC/cap2.png) | ![](assets/cap3.png)  |
+| ![](assetsC/cap4.png) |
+---
 ## 🚀 Desafíos Técnicos y Soluciones
 
 El proceso implicó ingeniería inversa directa sobre código Smali y modificaciones en el AndroidManifest.
