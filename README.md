@@ -5,7 +5,7 @@ Este repositorio contiene un parche de compatibilidad para un reproductor de mú
 El objetivo fue rehabilitar la aplicación para que funcione correctamente en hardware moderno y en Android 14 (incluyendo HyperOS), superando restricciones de seguridad y cambios en APIs internas del sistema.
 
 ---
-## 📸 Before / After
+##  Before (antes)---------------- After(despues)
 
 <p align="center">
   <img src="assetsC/old.jpg" width="300"/>
@@ -23,13 +23,19 @@ El objetivo fue rehabilitar la aplicación para que funcione correctamente en ha
 </p>
 
 
-## 🚀 Desafíos Técnicos y Soluciones
+##  Desafíos Técnicos y Soluciones
 
 El proceso implicó ingeniería inversa directa sobre código Smali y modificaciones en el AndroidManifest.
 
 ---
+### partes modificadas de codigo:
+Parche de Seguridad: Corregi el crash de SecurityException al cambiar el modo de preferencias a 0x0 (Private) en la línea 5778 de MediaPlaybackService.smali.
 
-### 1. 🔐 Seguridad y SharedPreferences
+Parche de Base de Datos: Arregle el cierre al reproducir eliminando el prefijo obsoleto audio. de la columna _id en la línea 242 del mismo archivo.
+
+Compatibilidad de Sistema: Ajuste el targetSdkVersion a 24 y añadi permisos modernos (READ_MEDIA_AUDIO) en el AndroidManifest.xml para que android +10 no bloquee la app.
+---
+### 1.  Seguridad y SharedPreferences
 
 **Problema:**
 La aplicación utilizaba el flag `MODE_WORLD_READABLE (0x1)` al acceder a preferencias, lo cual provoca una `SecurityException` en versiones modernas de Android.
@@ -43,7 +49,7 @@ MODE_PRIVATE (0x0)
 
 ---
 
-### 2. 🗄️ Incompatibilidad en consultas SQL
+### 2.  Incompatibilidad en consultas SQL
 
 **Problema:**
 Error en runtime:
