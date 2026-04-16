@@ -7,14 +7,20 @@ El objetivo fue rehabilitar la aplicación para que funcione correctamente en ha
 ---
 ## Before / After
 
+## Before / After
+
 | Original (Android 4) | Patched (Android 14) |
 |---------------------|----------------------|
-| ![](assetsC/old.png) | ![](assets/new.png)  |
+| ![](assetsC/old.jpg) | ![](assetsC/new.jpg) |
+
 ---
-## screnshoots
-| ![](assetsC/old.png) | ![](assets/new.png)  |
-| ![](assetsC/cap2.png) | ![](assets/cap3.png)  |
-| ![](assetsC/cap4.png) |
+
+## Screenshots
+
+| | |
+|--|--|
+| ![](assetsC/cap1.jpg) | ![](assetsC/cap3.jpg) |
+| ![](assetsC/cap4.jpg) | |
 ---
 ## 🚀 Desafíos Técnicos y Soluciones
 
