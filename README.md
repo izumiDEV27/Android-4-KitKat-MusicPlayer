@@ -34,6 +34,7 @@ Parche de Seguridad: Corregi el crash de SecurityException al cambiar el modo de
 Parche de Base de Datos: Arregle el cierre al reproducir eliminando el prefijo obsoleto audio. de la columna _id en la línea 242 del mismo archivo.
 
 Compatibilidad de Sistema: Ajuste el targetSdkVersion a 24 y añadi permisos modernos (READ_MEDIA_AUDIO) en el AndroidManifest.xml para que android +10 no bloquee la app.
+
 ---
 ### 1.  Seguridad y SharedPreferences
 
