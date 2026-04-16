@@ -5,22 +5,22 @@ Este repositorio contiene un parche de compatibilidad para un reproductor de mú
 El objetivo fue rehabilitar la aplicación para que funcione correctamente en hardware moderno y en Android 14 (incluyendo HyperOS), superando restricciones de seguridad y cambios en APIs internas del sistema.
 
 ---
-## Before / After
+## 📸 Before / After
 
-## Before / After
-
-| Original (Android 4) | Patched (Android 14) |
-|---------------------|----------------------|
-| ![](assetsC/old.jpg) | ![](assetsC/new.jpg) |
+<p align="center">
+  <img src="assetsC/old.jpg" width="300"/>
+  <img src="assetsC/new.jpg" width="300"/>
+</p>
 
 ---
 
-## Screenshots
+## 📱 Screenshots
 
-| | |
-|--|--|
-| ![](assetsC/cap1.jpg) | ![](assetsC/cap3.jpg) |
-| ![](assetsC/cap4.jpg) | |
+<p align="center">
+  <img src="assetsC/cap1.jpg" width="250"/>
+  <img src="assetsC/cap3.jpg" width="250"/>
+  <img src="assetsC/cap4.jpg" width="250"/>
+</p>
 ---
 ## 🚀 Desafíos Técnicos y Soluciones
 
