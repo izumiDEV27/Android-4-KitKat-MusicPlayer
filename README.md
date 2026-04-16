@@ -21,7 +21,8 @@ El objetivo fue rehabilitar la aplicación para que funcione correctamente en ha
   <img src="assetsC/cap3.jpg" width="250"/>
   <img src="assetsC/cap4.jpg" width="250"/>
 </p>
----
+
+
 ## 🚀 Desafíos Técnicos y Soluciones
 
 El proceso implicó ingeniería inversa directa sobre código Smali y modificaciones en el AndroidManifest.
